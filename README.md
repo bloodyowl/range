@@ -23,7 +23,7 @@ var range = require("bloody-range")
 
 ### range(start, end[, step=1])
 
-creates a range from `start` to `end`.
+creates a range from `start` to `end`, iterating adding `step` each time.
 
 ## example
 
