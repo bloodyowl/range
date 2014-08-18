@@ -1,0 +1,38 @@
+{
+  "name": "bloody-range",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "array-range generator",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/range.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/range/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/range",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "testling" : {
+    "files" : "test/**.js",
+    "browsers": [
+      "ie/8..10",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/6..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  }
+}
