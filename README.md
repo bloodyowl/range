@@ -1,5 +1,10 @@
 # range
 
+[![browser support](https://ci.testling.com/bloodyowl/range.png)](https://ci.testling.com/bloodyowl/range)
+
+[![Build Status](https://travis-ci.org/bloodyowl/range.svg)](https://travis-ci.org/bloodyowl/range)
+
+
 array-range generator
 
 ## install
